@@ -65,6 +65,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/b
 <img src="assets/images/1.3.1.png">
 <img src="assets/images/1.3.2.png">
 
+
 ## Praktikum 2: Membuat Halaman dengan Server-Side Rendering (SSR)
 
 1. Buka file pages/index.tsx di text editor Anda.
@@ -75,6 +76,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/b
 3. Simpan file dan lihat perubahan di browser. Anda akan melihat halaman utama dengan teks "Selamat Datang di Website Saya!". 
 <img src="assets/images/2.2.png">
 
+
 ## Praktikum 3: Menggunakan Static Site Generation (SSG) 
 
 1. Buat file baru di direktori pages dengan nama blog.js. 
@@ -84,6 +86,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/b
 
 3. Simpan file dan buka http://localhost:3000/blog di browser. Anda kan melihat daftar post yang diambil dari API eksternal.
 <img src="assets/images/3.2.png">
+
 
 ## Praktikum 4: Menggunakan Dynamic Routes
 
@@ -112,3 +115,15 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/b
 
 5. Simpan file dan buka http://localhost:3000/products di browser. Anda akan melihat daftar produk yang diambil dari API route.
 <img src="assets/images/5.3.png">
+
+
+## Praktikum 6: Menggunakan Link Component
+
+1. Buka file pages/index.tsx dan tambahkan modif dengan kode berikut untuk membuat link ke halaman lain:
+<img src="assets/images/6.1.png">
+
+2. Buat file baru di pages dengan nama about.js untuk halaman "Tentang Kami":
+<img src="assets/images/6.2.png">
+
+3. Simpan file dan buka http://localhost:3000 di browser. Klik link "Tentang Kami" untuk navigasi ke halaman tentang.
+<img src="assets/images/6.3.gif">
