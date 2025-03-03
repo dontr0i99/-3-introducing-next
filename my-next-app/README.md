@@ -64,3 +64,13 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/b
 4. Jalankan aplikasi Next.js dengan perintah:
 <img src="assets/images/1.3.1.png">
 <img src="assets/images/1.3.2.png">
+
+## Praktikum 2: Membuat Halaman dengan Server-Side Rendering (SSR)
+
+1. Buka file pages/index.tsx di text editor Anda.
+
+2. Ganti kode di dalamnya dengan kode berikut untuk membuat halaman sederhana:
+<img src="assets/images/2.1.png">
+
+3. Simpan file dan lihat perubahan di browser. Anda akan melihat halaman utama dengan teks "Selamat Datang di Website Saya!". 
+<img src="assets/images/2.2.png">
