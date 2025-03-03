@@ -96,3 +96,19 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/b
 
 4. Simpan file dan buka http://localhost:3000/blog/contoh-post di browser. Anda akan melihat halaman yang menampilkan slug dari URL.
 <img src="assets/images/4.2.png">
+
+
+## Praktikum 5: Menggunakan API Routes
+
+1. Pastikan terdapat direktori di pages dengan nama api. 
+
+2. Buat file di dalam direktori api dengan nama products.js. 
+
+3. Tambahkan kode berikut untuk membuat API route yang mengembalikan daftar produk:
+<img src="assets/images/5.1.png">
+
+4. Buat file baru di pages dengan nama products.js untuk menampilkan daftar produk: 
+<img src="assets/images/5.2.png">
+
+5. Simpan file dan buka http://localhost:3000/products di browser. Anda akan melihat daftar produk yang diambil dari API route.
+<img src="assets/images/5.3.png">
