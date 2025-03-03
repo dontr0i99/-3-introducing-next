@@ -84,3 +84,15 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/b
 
 3. Simpan file dan buka http://localhost:3000/blog di browser. Anda kan melihat daftar post yang diambil dari API eksternal.
 <img src="assets/images/3.2.png">
+
+## Praktikum 4: Menggunakan Dynamic Routes
+
+1. Buat direktori baru di pages dengan nama blog. 
+
+2. Buat file di dalam direktori blog dengan nama [slug].js 
+
+3. Tambahkan kode berikut untuk membuat halaman dinamis berdasarkan slug:
+<img src="assets/images/4.1.png">
+
+4. Simpan file dan buka http://localhost:3000/blog/contoh-post di browser. Anda akan melihat halaman yang menampilkan slug dari URL.
+<img src="assets/images/4.2.png">
