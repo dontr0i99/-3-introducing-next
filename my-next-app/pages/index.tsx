@@ -5,9 +5,15 @@ const Homepage = () => {
     <div>
       <h1>Selamat Datang di Website Saya!</h1>
       <p>Ini adalah halaman utama.</p>
-      <Link href="/about">
+      <p><Link href="/users">
+        Lihat User
+      </Link></p>
+      <p><Link href="/weather">
+        Lihat Cuaca
+      </Link></p>
+      <p><Link href="/about">
         Tentang Kami
-      </Link>
+      </Link></p>
     </div>
   )
 }

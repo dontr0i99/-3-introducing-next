@@ -127,3 +127,30 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/b
 
 3. Simpan file dan buka http://localhost:3000 di browser. Klik link "Tentang Kami" untuk navigasi ke halaman tentang.
 <img src="assets/images/6.3.gif">
+
+
+## Tugas
+1. Buat halaman baru dengan menggunakan Static Site Generation (SSG) yang menampilkan daftar pengguna dari API https://jsonplaceholder.typicode.com/users. 
+2. Implementasikan Dynamic Routes untuk menampilkan detail pengguna berdasarkan ID. 
+3. Buat API route yang mengembalikan data cuaca dari API eksternal (misalnya, OpenWeatherMap) dan tampilkan data tersebut di halaman front-end.
+
+### Kode
+
+#### Modifikasi file pages/index.tsx
+<img src="assets/images/tugas1.png">
+
+#### File pages\users\index.tsx
+<img src="assets/images/tugas2.png">
+
+#### File pages\users\[id].js
+<img src="assets/images/tugas3.png">
+
+#### File pages\weather.js
+<img src="assets/images/tugas5.png">
+
+#### File pages\api\weather.js
+<img src="assets/images/tugas4.png">
+
+
+### Hasil Output
+<img src="assets/images/output-tugas.gif">
