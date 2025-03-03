@@ -74,3 +74,13 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/b
 
 3. Simpan file dan lihat perubahan di browser. Anda akan melihat halaman utama dengan teks "Selamat Datang di Website Saya!". 
 <img src="assets/images/2.2.png">
+
+## Praktikum 3: Menggunakan Static Site Generation (SSG) 
+
+1. Buat file baru di direktori pages dengan nama blog.js. 
+
+2. Tambahkan kode berikut untuk membuat halaman blog dengan SSG:
+<img src="assets/images/3.1.png">
+
+3. Simpan file dan buka http://localhost:3000/blog di browser. Anda kan melihat daftar post yang diambil dari API eksternal.
+<img src="assets/images/3.2.png">
